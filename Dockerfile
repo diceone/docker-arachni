@@ -2,7 +2,7 @@ FROM centos:latest
 MAINTAINER Dr.Doom doom@dev-ops.de
 
 ENV PKG_NAME arachni
-ENV PKG_VER 1.3.2-0.5.9-linux-x86_64
+ENV PKG_VER 1.1-0.5.7-linux-x86_64
 ENV PKG_FILE ${PKG_NAME}-${PKG_VER}.tar.gz
 ENV PKG_URL http://downloads.arachni-scanner.com/${PKG_FILE}
 
